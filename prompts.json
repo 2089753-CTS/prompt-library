@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ui-001",
+    "title": "UI_GenerateReactComponent",
+    "category": "UI",
+    "description": "Scaffold a typed React functional component",
+    "tags": ["react", "typescript", "frontend"],
+    "prompt": "Generate a React functional component in TypeScript named {{ComponentName}}.\nAccept props: {{propsList}}.\nInclude:\n- A typed Props interface\n- Default export\n- Basic JSX structure\n- CSS module import stub\n- JSDoc comment describing the component"
+  },
+  {
+    "id": "be-001",
+    "title": "BE_GenerateRESTController",
+    "category": "BE",
+    "description": "Scaffold a Spring Boot REST controller",
+    "tags": ["java", "spring", "rest", "backend"],
+    "prompt": "Generate a Spring Boot REST controller for the resource {{ResourceName}}. Include:\n- @RestController and @RequestMapping annotations\n- GET /{{resource}} with optional pagination\n- GET /{{resource}}/{id}\n- POST with @Valid @RequestBody\n- PUT /{{resource}}/{id}\n- DELETE /{{resource}}/{id}\n- Proper HTTP status codes (200, 201, 204, 404)\n- Constructor-injected service\n- Javadoc for each endpoint"
+  },
+  {
+    "id": "shared-001",
+    "title": "Shared_ExplainCode",
+    "category": "Shared",
+    "description": "Plain English explanation of selected code",
+    "tags": ["explanation", "documentation"],
+    "prompt": "Explain the selected code in plain English:\n1. Purpose — what it does at a high level\n2. How it works — step-by-step walkthrough\n3. Key concepts — patterns or framework features used\n4. Gotchas — potential pitfalls or side effects"
+  }
+]
