@@ -26,6 +26,19 @@
       ],
       "prompt": "Generate a Spring Boot REST controller for the resource {{ResourceName}}. Include:\n- @RestController and @RequestMapping annotations\n- GET /{{resource}} with optional pagination\n- GET /{{resource}}/{id}\n- POST with @Valid @RequestBody\n- PUT /{{resource}}/{id}\n- DELETE /{{resource}}/{id}\n- Proper HTTP status codes (200, 201, 204, 404)\n- Constructor-injected service\n- Javadoc for each endpoint"
     },
+	{
+      "id": "be-002",
+      "title": "BE_GenerateRESTController1",
+      "category": "BE",
+      "description": "Scaffold a Spring Boot REST controller",
+      "tags": [
+        "java",
+        "spring",
+        "rest",
+        "backend"
+      ],
+      "prompt": "Generate a Spring Boot REST controller for the resource {{ResourceName}}. Include:\n- @RestController and @RequestMapping annotations\n- GET /{{resource}} with optional pagination\n- GET /{{resource}}/{id}\n- POST with @Valid @RequestBody\n- PUT /{{resource}}/{id}\n- DELETE /{{resource}}/{id}\n- Proper HTTP status codes (200, 201, 204, 404)\n- Constructor-injected service\n- Javadoc for each endpoint"
+    },
     {
       "id": "shared-001",
       "title": "Shared_ExplainCode",
