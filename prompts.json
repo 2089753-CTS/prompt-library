@@ -1,4 +1,6 @@
-[
+{
+  "version": "1.0.0",
+  "prompts": [
   {
     "id": "ui-001",
     "title": "UI_GenerateReactComponent",
@@ -22,5 +24,6 @@
     "description": "Plain English explanation of selected code",
     "tags": ["explanation", "documentation"],
     "prompt": "Explain the selected code in plain English:\n1. Purpose — what it does at a high level\n2. How it works — step-by-step walkthrough\n3. Key concepts — patterns or framework features used\n4. Gotchas — potential pitfalls or side effects"
-  }
-]
+}
+  ]
+}
