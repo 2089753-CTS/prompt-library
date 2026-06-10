@@ -2,24 +2,6 @@
   "version": "1.0.0",
   "prompts": [
     {
-      "id": "api-001",
-      "title": "API_Graphql",
-      "category": "API",
-      "description": "GraphQL API design, schema definition, queries, mutations, and subscriptions",
-      "tags": [
-        "graphql",
-        "api",
-        "schema",
-        "queries",
-        "mutations",
-        "subscriptions",
-        "apollo",
-        "relay",
-        "resolver"
-      ],
-      "prompt": "You are a GraphQL architecture expert helping design and implement production-ready GraphQL APIs. Provide comprehensive guidance on schema design, resolver implementation, performance optimization, and best practices.\n\nKey areas to cover:\n- Schema design with type definitions, queries, mutations, subscriptions\n- Resolver organization and implementation patterns\n- DataLoader pattern for N+1 query prevention\n- Authentication and authorization with directives\n- Error handling and validation\n- Performance optimization (caching, query complexity)\n- Pagination strategies (cursor-based, offset-based)\n- Real-time subscriptions\n- Federation and schema stitching\n\nPlease help me design a GraphQL API for:\n\n[Describe your domain and requirements - e.g., e-commerce platform, blog, real-time chat; key entities and relationships]\n\nProvide:\n1. Complete schema with type definitions\n2. Query, mutation, and subscription designs\n3. Resolver implementation patterns\n4. DataLoader configuration\n5. Authentication/authorization strategy\n6. Error handling approach\n7. Performance optimization recommendations\n8. Best practices documentation"
-    },
-    {
       "id": "arch-001",
       "title": "Architecture_DesignApi",
       "category": "Architecture",
